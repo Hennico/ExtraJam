@@ -26,11 +26,11 @@
           <argument>
             <kind>1</kind>
             <string>/// Inicializar
-velocidad = 4;
+velocidad = 8;
 
-salto = 14;
+salto = 12;
 velocidadVer = 0;
-gravedad = 1;
+gravedad = .8;
 
 </string>
           </argument>
@@ -55,27 +55,16 @@ gravedad = 1;
           <argument>
             <kind>1</kind>
             <string>/// Moverse
-/*var hor = keyboard_check(ord('D')) - keyboard_check(ord('A'))
-var ver = keyboard_check(ord('S')) - keyboard_check(ord('W'))
-
-
-if (hor != 0) image_xscale = hor;
-
-if (hor != 0 || ver != 0) {
-    var dir = point_direction(0,0,hor,ver);
-    scr_moverse(dcos(dir)*velocidad,-dsin(dir)*velocidad);
-}*/
-
 var hor = keyboard_check(ord('D')) - keyboard_check(ord('A'));
+
 velocidadVer = velocidadVer - gravedad;
 if (place_meeting(x, y+1, obj_obstaculo))
     velocidadVer = 0;
 if (keyboard_check_pressed(vk_space) == 1 &amp;&amp; place_meeting(x, y+1, obj_obstaculo))
     velocidadVer = salto;
+
 var ver = velocidadVer;
-
 if (hor != 0) image_xscale = hor;
-
 if (hor != 0 || ver != 0) {
     scr_moverse(hor*velocidad, -ver);
 }
