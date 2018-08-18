@@ -63,16 +63,16 @@ else
     var hor = -1;
 
 velocidadVer = velocidadVer - gravedad;
-if (place_meeting(x, y+1, obj_obstaculo)) {
+if (scr_posicion_bloqueada(x, y+1)) {
     velocidadVer = 0;
-    
+
     if (place_meeting(x + hor, y, obj_obstaculo))
-        velocidadVer = salto;   
-        
+        velocidadVer = salto;
+
     if (!place_meeting(x + hor*largo, y+1, obj_obstaculo))
         if (obj_personaje.y &lt;= y)
             velocidadVer = salto;
-            
+
     if (place_meeting(x + hor*largo, y - 2*largo, obj_obstaculo))
         if (obj_personaje.y &lt;= y)
             velocidadVer = salto;
