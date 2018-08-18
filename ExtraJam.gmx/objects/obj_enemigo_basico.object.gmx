@@ -65,10 +65,11 @@ else
 velocidadVer = velocidadVer - gravedad;
 if (place_meeting(x, y+1, obj_obstaculo)) {
     velocidadVer = 0;
+    
     if (place_meeting(x + hor, y, obj_obstaculo))
         velocidadVer = salto;   
         
-    if (!position_meeting(x + hor*largo/2, y+1, obj_obstaculo))
+    if (!place_meeting(x + hor*largo, y+1, obj_obstaculo))
         if (obj_personaje.y &lt;= y)
             velocidadVer = salto;
             
