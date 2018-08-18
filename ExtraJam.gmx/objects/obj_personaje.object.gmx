@@ -65,6 +65,7 @@ armasTotales = 1;
             <kind>1</kind>
             <string>/// Moverse
 var en_piso = place_meeting(x, y+1, obj_obstaculo);
+en_piso = en_piso || place_meeting(x, y+1, obj_enemigo);
 var quiereSaltar = keyboard_check_pressed(vk_space);
 
 var hor = keyboard_check(ord('D')) - keyboard_check(ord('A'));
