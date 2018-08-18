@@ -43,7 +43,6 @@
       <object>objects\obj_enemigo_basico</object>
       <object>objects\obj_dispensar_Enemigos</object>
     </objects>
-    <object>objects\object7</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
