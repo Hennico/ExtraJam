@@ -72,7 +72,7 @@ speed *= 1-(1/room_speed*2);
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="obj_enemigo_basico">
+    <event eventtype="4" ename="obj_enemigo">
       <action>
         <libid>1</libid>
         <id>203</id>
