@@ -1,6 +1,6 @@
 /// arma_escopeta()
-if (enfriamiento < 0) {
-    enfriamiento = room_speed*.5;
+if (enfriamiento < room_speed*.5) {
+    enfriamiento += room_speed*.5;
     var vertOffset = -32;
     var balas = 7;
     var dispercion = 7;

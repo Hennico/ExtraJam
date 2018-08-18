@@ -138,7 +138,7 @@ if (enfriamiento &gt;= 0)
           <argument>
             <kind>1</kind>
             <string>/// Cambiar arma 
-armaSelec = (armasSelec +1) mod array_length_1d(ataques);
+armaSelec = (armaSelec +1) mod array_length_1d(ataques);
 </string>
           </argument>
         </arguments>
