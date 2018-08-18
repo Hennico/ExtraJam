@@ -63,10 +63,10 @@ cursor_sprite = sprite5;</code>
     <instance objName="obj_obstaculo" x="640" y="352" name="inst_54CADA50" locked="0" code="" scaleX="11" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_obstaculo" x="416" y="224" name="inst_06ABA923" locked="0" code="" scaleX="8" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_obstaculo" x="32" y="352" name="inst_0E9D7218" locked="0" code="" scaleX="12.3870964050293" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_dispensar_Enemigos" x="64" y="64" name="inst_6F34082A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_dispensar_Enemigos" x="960" y="64" name="inst_6BB10DED" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_dispensar_Enemigos" x="960" y="704" name="inst_20624F79" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_dispensar_Enemigos" x="64" y="704" name="inst_053BAFBB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_dispensar_enemigos" x="64" y="64" name="inst_6F34082A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_dispensar_enemigos" x="960" y="64" name="inst_6BB10DED" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_dispensar_enemigos" x="960" y="704" name="inst_20624F79" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_dispensar_enemigos" x="64" y="704" name="inst_053BAFBB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_obstaculo" x="352" y="544" name="inst_97D94166" locked="0" code="" scaleX="11" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="obj_obstaculo" x="416" y="480" name="inst_7FCF8AAE" locked="0" code="" scaleX="7" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="obj_obstaculo" x="480" y="416" name="inst_43C93669" locked="0" code="" scaleX="3" scaleY="2" colour="4294967295" rotation="0"/>
