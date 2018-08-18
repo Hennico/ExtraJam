@@ -11,6 +11,7 @@
     <sprite>sprites\sprite3</sprite>
     <sprite>sprites\sprite4</sprite>
     <sprite>sprites\sprite2</sprite>
+    <sprite>sprites\sprite5</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -39,6 +40,7 @@
       <object>objects\obj_enemigo_basico</object>
       <object>objects\obj_dispensar_Enemigos</object>
     </objects>
+    <object>objects\object7</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>

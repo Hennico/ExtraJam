@@ -52,6 +52,7 @@ alarm[0] =  ciclo;
             <kind>1</kind>
             <string>/// Crear enemigo
 instance_create(x, y, obj_enemigo_basico);
+alarm[0] = ciclo;
 </string>
           </argument>
         </arguments>
