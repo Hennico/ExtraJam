@@ -13,6 +13,7 @@
     <sprite>sprites\sprite2</sprite>
     <sprite>sprites\sprite5</sprite>
     <sprite>sprites\sprite6</sprite>
+    <sprite>sprites\sprite7</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -26,6 +27,7 @@
     <script>scripts\scr_posicion_bloqueada.gml</script>
     <scripts name="Armas">
       <script>scripts\escopeta.gml</script>
+      <script>scripts\bigote.gml</script>
     </scripts>
   </scripts>
   <fonts name="fonts">
@@ -34,7 +36,6 @@
   <objects name="objects">
     <object>objects\obj_personaje</object>
     <object>objects\obj_fuerza</object>
-    <object>objects\obj_proyectil_1</object>
     <objects name="Menus">
       <object>objects\obj_menu</object>
     </objects>
@@ -46,6 +47,10 @@
       <object>objects\obj_enemigo_aire</object>
       <object>objects\obj_enemigo_basico</object>
       <object>objects\obj_dispensar_enemigos</object>
+    </objects>
+    <objects name="proyectiles">
+      <object>objects\obj_bigote</object>
+      <object>objects\obj_proyectil_1</object>
     </objects>
   </objects>
   <rooms name="rooms">
