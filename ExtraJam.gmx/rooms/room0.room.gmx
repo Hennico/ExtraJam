@@ -70,6 +70,9 @@ cursor_sprite = sprite5;</code>
     <instance objName="obj_obstaculo" x="352" y="544" name="inst_97D94166" locked="0" code="" scaleX="11" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="obj_obstaculo" x="416" y="480" name="inst_7FCF8AAE" locked="0" code="" scaleX="7" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="obj_obstaculo" x="480" y="416" name="inst_43C93669" locked="0" code="" scaleX="3" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="obj_obstaculo" x="288" y="256" name="inst_DA56D09E" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_obstaculo" x="736" y="256" name="inst_7C13EA72" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_obstaculo" x="288" y="224" name="inst_1B90C96D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
