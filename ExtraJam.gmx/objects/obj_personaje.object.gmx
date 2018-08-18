@@ -37,7 +37,7 @@ velocidadHor = 0;
 friccion = 3;
 
 ataques[0] = escopeta;
-ataques[1] = bigote;
+//ataques[1] = bigote;
 
 armaSelec = 0;
 armasTotales = 1;
