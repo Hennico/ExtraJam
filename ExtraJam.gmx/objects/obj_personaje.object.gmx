@@ -64,50 +64,29 @@ armasTotales = 1;
           <argument>
             <kind>1</kind>
             <string>/// Moverse
-var hor = 0;
-if (place_meeting(x, y+1, obj_obstaculo)){
-    hor = keyboard_check(ord('D')) - keyboard_check(ord('A'));
-    velocidadHor = 0;
+var en_piso = place_meeting(x, y+1, obj_obstaculo);
+var quiereSaltar = keyboard_check_pressed(vk_space);
+
+var hor = keyboard_check(ord('D')) - keyboard_check(ord('A'));
+
+   
+if (en_piso){    
+    velocidadHor = hor*velocidad;
+    if (hor != 0) image_xscale = hor;
+} else if (hor != 0 &amp;&amp; quiereSaltar &amp;&amp;  place_meeting(x-hor, y, obj_obstaculo)) {
+    velocidadVer = salto; 
+    velocidadHor = hor*salto;
 }
 
-if (velocidadHor &lt; velocidad &amp;&amp; hor &gt; 0)
-    velocidadHor = velocidadHor + hor*velocidad;
-if (-velocidadHor &lt; velocidad &amp;&amp; hor &lt; 0)
-    velocidadHor = velocidadHor + hor*velocidad;
-    
-    /*
-if (velocidadHor &lt; velocidad)
-    velocidadHor = velocidadHor + friccion;
-if (-velocidadHor &lt; velocidad)
-    velocidadHor = velocidadHor - friccion;*/
-    
-
-
-velocidadVer = velocidadVer - gravedad;
-if (place_meeting(x, y+1, obj_obstaculo))
+if (scr_posicion_bloqueada(x,y+1))
     velocidadVer = 0;
-if (keyboard_check_pressed(vk_space) == 1 &amp;&amp; place_meeting(x, y+1, obj_obstaculo)){
+else velocidadVer = velocidadVer - gravedad;
+    
+if (en_piso &amp;&amp; quiereSaltar)
     velocidadVer = salto;
-} else {
-//Salto contra Pared
-   if (keyboard_check_pressed(vk_space) == 1 
-        &amp;&amp; keyboard_check(ord('A')) == 1 
-        &amp;&amp; place_meeting(x+1, y, obj_obstaculo)){
-    velocidadVer = salto; 
-    velocidadHor = -salto;
-    }
-   if (keyboard_check_pressed(vk_space) == 1 
-        &amp;&amp; keyboard_check(ord('D')) == 1
-        &amp;&amp; place_meeting(x-1, y, obj_obstaculo)){
-    velocidadVer = salto; 
-    velocidadHor = salto;
-    }
-}
 
-var ver = velocidadVer;
-if (hor != 0) image_xscale = hor;
-if (hor != 0 || ver != 0) {
-    scr_moverse(velocidadHor, -ver);
+if (velocidadHor != 0 || velocidadVer != 0) {
+    scr_moverse(velocidadHor, -velocidadVer);
 }
 
 </string>

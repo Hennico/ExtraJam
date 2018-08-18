@@ -1,9 +1,10 @@
 if (!instance_exists(obj_fuerza)) {
+    var vertOffset = -32;
     var balas = 7;
     var dispercion = 7;
-    var direc = point_direction(x,y,mouse_x,mouse_y);
+    var direc = point_direction(x,y+vertOffset,mouse_x,mouse_y);
     for (var i = 0; i < balas; i++) {
-        with (instance_create(x,y,obj_proyectil_1)) {
+        with (instance_create(x,y+vertOffset,obj_proyectil_1)) {
             direction = direc + random_range(-dispercion,dispercion);
             speed = 50;
         }
