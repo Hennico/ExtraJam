@@ -37,7 +37,6 @@
     <objects name="Enemigos">
       <object>objects\obj_enemigo_basico</object>
     </objects>
-    <object>objects\obj</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
