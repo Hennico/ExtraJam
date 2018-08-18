@@ -59,8 +59,6 @@ cursor_sprite = sprite5;</code>
     <instance objName="obj_obstaculo" x="32" y="0" name="inst_1FBBD5C2" locked="0" code="" scaleX="30" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_menu" x="32" y="32" name="inst_6B3F66A0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_obstaculo" x="224" y="672" name="inst_FDC641D2" locked="0" code="" scaleX="19" scaleY="2" colour="4294967295" rotation="0"/>
-    <instance objName="obj_enemigo_basico" x="96" y="96" name="inst_A80234B4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_enemigo_basico" x="640" y="64" name="inst_B922280A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_obstaculo" x="288" y="608" name="inst_AC635C38" locked="0" code="" scaleX="15" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="obj_obstaculo" x="640" y="352" name="inst_54CADA50" locked="0" code="" scaleX="11" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_obstaculo" x="416" y="224" name="inst_06ABA923" locked="0" code="" scaleX="8" scaleY="1" colour="4294967295" rotation="0"/>
