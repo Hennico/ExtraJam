@@ -23,6 +23,9 @@
     <script>scripts\Nada.gml</script>
     <script>scripts\scr_estas_en_suelo.gml</script>
     <script>scripts\scr_obstaculoEnfrente.gml</script>
+    <scripts name="Armas">
+      <script>scripts\escopeta.gml</script>
+    </scripts>
   </scripts>
   <fonts name="fonts">
     <font>fonts\font_menu</font>
