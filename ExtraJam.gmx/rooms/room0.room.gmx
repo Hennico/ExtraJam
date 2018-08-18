@@ -64,6 +64,10 @@
     <instance objName="obj_obstaculo" x="768" y="352" name="inst_54CADA50" locked="0" code="" scaleX="7" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_obstaculo" x="448" y="352" name="inst_06ABA923" locked="0" code="" scaleX="8" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_obstaculo" x="32" y="352" name="inst_0E9D7218" locked="0" code="" scaleX="11" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_dispensar_Enemigos" x="64" y="64" name="inst_6F34082A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_dispensar_Enemigos" x="960" y="64" name="inst_6BB10DED" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_dispensar_Enemigos" x="960" y="704" name="inst_20624F79" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_dispensar_Enemigos" x="64" y="704" name="inst_053BAFBB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

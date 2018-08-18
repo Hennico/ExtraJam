@@ -28,7 +28,7 @@
             <string>/// Inicializar
 velocidad = 4;
 
-salto = 10;
+salto = 14;
 velocidadVer = 0;
 gravedad = 1;
 
