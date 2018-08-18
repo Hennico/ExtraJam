@@ -41,7 +41,7 @@
       <object>objects\obj_enemigo</object>
       <object>objects\obj_enemigo_aire</object>
       <object>objects\obj_enemigo_basico</object>
-      <object>objects\obj_dispensar_enemigos</object>
+      <object>objects\obj_dispensar_Enemigos</object>
     </objects>
   </objects>
   <rooms name="rooms">
