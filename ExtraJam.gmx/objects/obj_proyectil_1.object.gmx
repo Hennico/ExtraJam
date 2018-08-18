@@ -26,7 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>/// Inicializar
-alarm[0] = room_speed;
+alarm[0] = room_speed*.25;
 </string>
           </argument>
         </arguments>
