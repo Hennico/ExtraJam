@@ -36,11 +36,13 @@ gravedad = .8;
 velocidadHor = 0;
 friccion = 3;
 
-ataques[0] = escopeta;
-ataques[1] = bigote;
+ataques[0] = arma_pistolon;
+ataques[1] = arma_escopeta;
 
 armaSelec = 0;
 armasTotales = 1;
+
+enfriamiento = 0;
 </string>
           </argument>
         </arguments>
@@ -94,6 +96,29 @@ if (velocidadHor != 0 || velocidadVer != 0) {
           </argument>
         </arguments>
       </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>/// recargar arma
+if (enfriamiento &gt;= 0)
+    enfriamiento--;
+</string>
+          </argument>
+        </arguments>
+      </action>
     </event>
     <event eventtype="6" enumb="54">
       <action>
@@ -112,9 +137,8 @@ if (velocidadHor != 0 || velocidadVer != 0) {
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>armaSelec++;
-if (armaSelec == armasTotales+1)
-    armaSelec = 0;
+            <string>/// Cambiar arma 
+armaSelec = (armasSelec +1) mod array_length_1d(ataques);
 </string>
           </argument>
         </arguments>

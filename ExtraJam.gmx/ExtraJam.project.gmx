@@ -26,6 +26,8 @@
     <scripts name="Armas">
       <script>scripts\escopeta.gml</script>
       <script>scripts\bigote.gml</script>
+      <script>scripts\arma_escopeta.gml</script>
+      <script>scripts\arma_pistolon.gml</script>
     </scripts>
   </scripts>
   <fonts name="fonts">
