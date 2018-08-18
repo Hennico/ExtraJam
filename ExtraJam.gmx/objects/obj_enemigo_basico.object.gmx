@@ -26,6 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>/// Inicializar
+vida = 100;
 velocidad = 2;
 
 salto = 15;

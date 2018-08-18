@@ -27,6 +27,7 @@
             <kind>1</kind>
             <string>/// Inicializacion
 vida = 100;
+velocidad = 2;
 </string>
           </argument>
         </arguments>
