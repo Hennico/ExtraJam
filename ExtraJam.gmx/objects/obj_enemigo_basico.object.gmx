@@ -32,6 +32,7 @@ salto = 15;
 velocidadVer = 0;
 gravedad = 1;
 
+largo = bbox_right - bbox_left;
 </string>
           </argument>
         </arguments>
@@ -59,6 +60,7 @@ gravedad = 1;
 else
     var hor = -1;
 
+    
 
 velocidadVer = velocidadVer - gravedad;
 if (place_meeting(x, y+1, obj_obstaculo))
@@ -67,9 +69,16 @@ if (place_meeting(x, y+1, obj_obstaculo))
 if (place_meeting(x + hor, y, obj_obstaculo) &amp;&amp; place_meeting(x, y+1, obj_obstaculo))
     velocidadVer = salto;
     //salto ss me voy a caer y el enemigo esta abajo y estoy en el suelo
-if (!place_meeting(x - hor*(bbox_left - bbox_right), y +1, obj_obstaculo) &amp;&amp; place_meeting(x, y+1, obj_obstaculo))
+if (!place_meeting(x + hor*largo, y +1, obj_obstaculo) &amp;&amp; place_meeting(x, y+1, obj_obstaculo))
     if (obj_personaje.y &lt;= y)
         velocidadVer = salto;
+        
+    //Salto si puedo y me combiene subir. a Refinar
+if (place_meeting(x + hor*largo, y - 2*largo, obj_obstaculo) &amp;&amp; place_meeting(x, y+1, obj_obstaculo))
+    if (obj_personaje.y &lt;= y)
+        velocidadVer = salto;        
+
+
 var ver = velocidadVer;
 
 if (hor != 0) image_xscale = hor;
