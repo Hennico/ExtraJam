@@ -65,6 +65,7 @@ else
 velocidadVer = velocidadVer - gravedad;
 if (place_meeting(x, y+1, obj_obstaculo)) {
     velocidadVer = 0;
+<<<<<<< HEAD
     if (place_meeting(x + hor, y, obj_obstaculo))
         velocidadVer = salto;   
         
@@ -76,6 +77,22 @@ if (place_meeting(x, y+1, obj_obstaculo)) {
         if (obj_personaje.y &lt;= y)
             velocidadVer = salto;
 }
+=======
+    //salto si no puedo avansar   
+if (place_meeting(x + hor, y, obj_obstaculo) &amp;&amp; place_meeting(x, y+1, obj_obstaculo))
+    velocidadVer = salto;
+    //salto ss me voy a caer y el enemigo esta abajo y estoy en el suelo
+if (!place_meeting(x + hor*largo, y +1, obj_obstaculo) &amp;&amp; place_meeting(x, y+1, obj_obstaculo))
+        if (obj_personaje.y &lt;= y)
+            velocidadVer = salto;
+        
+    //Salto si puedo y me combiene subir. a Refinar
+if (place_meeting(x + hor*largo, y - 2*largo, obj_obstaculo) &amp;&amp; place_meeting(x, y+1, obj_obstaculo))
+        if (obj_personaje.y &lt;= y)
+            velocidadVer = salto;        
+
+
+>>>>>>> 94af3edd28ccd180b0b49070eb07dcb606422a99
 var ver = velocidadVer;
 
 if (hor != 0) image_xscale = hor;
