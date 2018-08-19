@@ -34,25 +34,24 @@
   <backgrounds name="background"/>
   <paths name="paths"/>
   <scripts name="scripts">
+    <script>scripts\scr_sacudir_camara.gml</script>
     <script>scripts\scr_moverse.gml</script>
     <script>scripts\scr_aplicarFuerza.gml</script>
+    <script>scripts\scr_posicion_bloqueada.gml</script>
     <script>scripts\Salir.gml</script>
     <script>scripts\Nada.gml</script>
-    <script>scripts\scr_posicion_bloqueada.gml</script>
     <scripts name="Armas">
       <script>scripts\escopeta.gml</script>
       <script>scripts\bigote.gml</script>
       <script>scripts\arma_escopeta.gml</script>
       <script>scripts\arma_pistolon.gml</script>
     </scripts>
-    <script>scripts\scr_shake.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\font_menu</font>
   </fonts>
   <objects name="objects">
     <object>objects\obj_personaje</object>
-    <object>objects\obj_fuerza</object>
     <objects name="Menus">
       <object>objects\obj_menu</object>
     </objects>
@@ -70,6 +69,10 @@
       <object>objects\obj_proyectil</object>
       <object>objects\obj_bigote</object>
       <object>objects\obj_proyectil_1</object>
+    </objects>
+    <objects name="Efectos">
+      <object>objects\obj_fuerza</object>
+      <object>objects\obj_shake</object>
     </objects>
   </objects>
   <rooms name="rooms">
