@@ -54,10 +54,10 @@
     <instance objName="obj_obstaculo" x="-960" y="640" name="inst_4AEEE086" locked="0" code="" scaleX="50" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_obstaculo" x="0" y="0" name="inst_FD45E04E" locked="0" code="" scaleX="1" scaleY="27.8709678649902" colour="4294967295" rotation="0"/>
     <instance objName="obj_obstaculo" x="1568" y="0" name="inst_12D72473" locked="0" code="" scaleX="1" scaleY="27.8709678649902" colour="4294967295" rotation="0"/>
-    <instance objName="obj_personaje" x="1504" y="832" name="inst_A3DE5A6E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_personaje" x="1376" y="832" name="inst_A3DE5A6E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_menu" x="0" y="0" name="inst_342CBC53" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_obstaculo" x="288" y="288" name="inst_F41E84A0" locked="0" code="" scaleX="11" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_obstaculo" x="1344" y="864" name="inst_BDA833C3" locked="0" code="" scaleX="17" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_obstaculo" x="1280" y="864" name="inst_BDA833C3" locked="0" code="" scaleX="17" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_obstaculo" x="1024" y="768" name="inst_39593DD5" locked="0" code="" scaleX="4" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_obstaculo" x="1024" y="288" name="inst_271B5710" locked="0" code="" scaleX="13" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_dispensar_enemigos" x="1312" y="224" name="inst_DB38E9F2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
