@@ -1,2 +1,3 @@
-// Siguiente Nivel
-room_goto (room_map);
+// Siguiente Nivel+
+room_goto_next();
+//room_goto (room_map);

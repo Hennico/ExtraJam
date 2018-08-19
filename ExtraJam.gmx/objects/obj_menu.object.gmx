@@ -3,8 +3,8 @@
   <spriteName>&lt;undefined&gt;</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>0</depth>
-  <persistent>0</persistent>
+  <depth>-20</depth>
+  <persistent>-1</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
@@ -25,16 +25,16 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>menu [0] = "PLAY";
-menu [1] = "Test 1";
-menu [2] = "Test 2";
-menu [3] = "Test 3";
+            <string>menu [0] = "reiniciar";
+menu [1] = "ayuda";
+menu [2] = "siguiente LvL";
+menu [3] = "anterior LvL";
 menu [4] = "Salir";
 
-accion [0] = next_level;
-accion [1] = Nada;
-accion [2] = Nada;
-accion [3] = Nada;
+accion [0] = restart;
+accion [1] = mostrarAyuda;
+accion [2] = next_level;
+accion [3] = prev_level;
 accion [4] = Salir;
 
 largo_menu = 5;
@@ -46,6 +46,8 @@ space = 100;
 mpos = 0;
 
 mostrar = false;
+global.pausa = true;
+mostrarAyudavar = false;
 </string>
           </argument>
         </arguments>
@@ -85,19 +87,30 @@ mostrar = false;
           <argument>
             <kind>1</kind>
             <string>if (mostrar){
-    draw_set_font(font_menu);
-    //draw_set_color(c_black);
-    draw_set_halign(fa_center);
-    
-    var i;
-    for (i = 0; i &lt; largo_menu; i += 1)
-       {
-       if (i == mpos)
-            draw_text_colour(x, y + (i * space), menu[i], c_red, c_red, c_red, c_red, 1);
-       else
-           draw_text_colour(x, y + (i * space), menu[i], c_black, c_black, c_black, c_black, 1);
-       }
+    if (mostrarAyudavar){
+        draw_set_font(font_menu);
+        draw_set_halign(fa_center);
+        draw_text_colour(x, y + (0 * space), "este es nuestro intento de explicar comandos", c_black, c_black, c_black, c_black, 1);
+        draw_text_colour(x, y + (1 * space), "P pausa.. ¿Como llegaste aqui?", c_black, c_black, c_black, c_black, 1);
+        draw_text_colour(x, y + (3 * space), "left Click dispar, Rigth Click cambiar de armas", c_black, c_black, c_black, c_black, 1);
+        draw_text_colour(x, y + (4 * space), "puedes saltar sobre la paredes con A o D y space", c_black, c_black, c_black, c_black, 1);
+        draw_text_colour(x, y + (1 * space), "P pausa.. ¿Como llegaste aqui?", c_black, c_black, c_black, c_black, 1);  
+        draw_text_colour(x, y + (2 * space), "A y D para moverse. Space para saltar", c_black, c_black, c_black, c_black, 1);  
+    }else{
+        draw_set_font(font_menu);
+        draw_set_halign(fa_center);
+        
+        var i;
+        for (i = 0; i &lt; largo_menu; i += 1)
+           {
+           if (i == mpos)
+                draw_text_colour(x, y + (i * space), menu[i], c_red, c_red, c_red, c_red, 1);
+           else
+               draw_text_colour(x, y + (i * space), menu[i], c_black, c_black, c_black, c_black, 1);
+           }
+    }
 }
+
 </string>
           </argument>
         </arguments>
@@ -142,10 +155,9 @@ mostrar = false;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>mostrar = !mostrar;
-if (mostrar){
+            <string>global.pausa = !global.pausa;
+mostrar = !mostrar;
 
-}
 </string>
           </argument>
         </arguments>
@@ -218,7 +230,12 @@ if (mpos == -1)
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>script_execute(accion [mpos]);
+            <string>if mostrarAyudavar
+    mostrarAyudavar = false;
+else
+    if mostrar
+        script_execute(accion [mpos]);
+
 </string>
           </argument>
         </arguments>

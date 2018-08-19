@@ -112,34 +112,36 @@ empujador.y = y;
           <argument>
             <kind>1</kind>
             <string>/// Moverse
-var hor = 0;
-if(abs(obj_personaje.x-x)&gt;velocidad){
-    if (obj_personaje.x &gt; x)
-        hor = 1;
-    else
-        hor = -1;
-}
-
-velocidadVer = velocidadVer - gravedad;
-if (scr_posicion_bloqueada(x, y+1)) {
-    velocidadVer = 0;
-
-    if (place_meeting(x + hor, y, obj_obstaculo))
-        velocidadVer = salto;
-
-    if (!place_meeting(x + hor*largo, y+1, obj_obstaculo))
-        if (obj_personaje.y &lt;= y + 32)
+if global.pausa{
+    var hor = 0;
+    if(abs(obj_personaje.x-x)&gt;velocidad){
+        if (obj_personaje.x &gt; x)
+            hor = 1;
+        else
+            hor = -1;
+    }
+    
+    velocidadVer = velocidadVer - gravedad;
+    if (scr_posicion_bloqueada(x, y+1)) {
+        velocidadVer = 0;
+    
+        if (place_meeting(x + hor, y, obj_obstaculo))
             velocidadVer = salto;
-
-    if (place_meeting(x + hor*largo, y - 2*largo, obj_obstaculo))
-        if (obj_personaje.y &lt;= y + 32)
-            velocidadVer = salto;
-}
-var ver = velocidadVer;
-
-if (hor != 0) image_xscale = 2*hor;
-if (hor != 0 || ver != 0) {
-    scr_moverse(hor*velocidad, -ver);
+    
+        if (!place_meeting(x + hor*largo, y+1, obj_obstaculo))
+            if (obj_personaje.y &lt;= y + 32)
+                velocidadVer = salto;
+    
+        if (place_meeting(x + hor*largo, y - 2*largo, obj_obstaculo))
+            if (obj_personaje.y &lt;= y + 32)
+                velocidadVer = salto;
+    }
+    var ver = velocidadVer;
+    
+    if (hor != 0) image_xscale = 2*hor;
+    if (hor != 0 || ver != 0) {
+        scr_moverse(hor*velocidad, -ver);
+    }
 }
 </string>
           </argument>

@@ -52,6 +52,9 @@
       <script>scripts\arma_pistolon.gml</script>
     </scripts>
     <script>scripts\next_level.gml</script>
+    <script>scripts\prev_level.gml</script>
+    <script>scripts\restart.gml</script>
+    <script>scripts\mostrarAyuda.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\font_menu</font>

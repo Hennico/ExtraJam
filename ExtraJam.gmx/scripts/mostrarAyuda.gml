@@ -1,0 +1,2 @@
+// mostrarAyuda()
+mostrarAyudavar = !mostrarAyudavar;

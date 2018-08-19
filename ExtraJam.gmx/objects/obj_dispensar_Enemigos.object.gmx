@@ -79,15 +79,17 @@ if (instance_number(obj_dispensar_enemigos) == 1)
           <argument>
             <kind>1</kind>
             <string>/// Crear enemigo
-var spawn = choose(
-    obj_enemigo_basico,
-    obj_enemigo_basico,
-    obj_enemigo_basico,
-    obj_enemigo_basico,
-    obj_enemigo_aire
-)
-
+if global.pausa{
+    var spawn = choose(
+        obj_enemigo_basico,
+        obj_enemigo_basico,
+        obj_enemigo_basico,
+        obj_enemigo_basico,
+        obj_enemigo_aire
+    )
 instance_create(x, y, spawn);
+}
+
 alarm[0] = ciclo + irandom_range(-5,3);
 </string>
           </argument>

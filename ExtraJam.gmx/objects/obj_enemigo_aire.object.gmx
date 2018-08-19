@@ -91,7 +91,9 @@ alarm[0] = room_speed;
           <argument>
             <kind>1</kind>
             <string>/// Moverse
-scr_moverse(vel_x, vel_y);
+if global.pausa{
+    scr_moverse(vel_x, vel_y);
+}
 </string>
           </argument>
         </arguments>
