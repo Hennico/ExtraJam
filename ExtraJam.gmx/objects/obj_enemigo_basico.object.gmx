@@ -35,7 +35,9 @@ gravedad = 1;
 
 largo = bbox_right - bbox_left;
 
-image_speed = 0.5;
+image_speed = 0.25;
+image_xscale = 2;
+image_yscale = 2;
 </string>
           </argument>
         </arguments>
@@ -72,16 +74,16 @@ if (scr_posicion_bloqueada(x, y+1)) {
         velocidadVer = salto;
 
     if (!place_meeting(x + hor*largo, y+1, obj_obstaculo))
-        if (obj_personaje.y &lt;= y)
+        if (obj_personaje.y &lt;= y + 32)
             velocidadVer = salto;
 
     if (place_meeting(x + hor*largo, y - 2*largo, obj_obstaculo))
-        if (obj_personaje.y &lt;= y)
+        if (obj_personaje.y &lt;= y + 32)
             velocidadVer = salto;
 }
 var ver = velocidadVer;
 
-if (hor != 0) image_xscale = hor;
+if (hor != 0) image_xscale = 2*hor;
 if (hor != 0 || ver != 0) {
     scr_moverse(hor*velocidad, -ver);
 }
