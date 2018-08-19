@@ -25,13 +25,13 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>menu [0] = "Test 0";
+            <string>menu [0] = "PLAY";
 menu [1] = "Test 1";
 menu [2] = "Test 2";
 menu [3] = "Test 3";
 menu [4] = "Salir";
 
-accion [0] = Nada;
+accion [0] = next_level;
 accion [1] = Nada;
 accion [2] = Nada;
 accion [3] = Nada;
