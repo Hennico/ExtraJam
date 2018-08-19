@@ -31,7 +31,7 @@
     <sprite>sprites\drone</sprite>
     <sprite>sprites\sprite10</sprite>
     <sprite>sprites\Hero_Coriendo_Escopta_Grande</sprite>
-    <sprite>sprites\spr_area_empuje_enemigo</sprite>
+    <sprite>sprites\spr_area_empuje_enemigo</sprite>\
     <sprite>sprites\Hero_callendo_arma_Grande</sprite>
     <sprite>sprites\Hero_Parado_Escopta_Grande</sprite>
     <sprite>sprites\Hero_Deslizando_arma_Grande</sprite>
