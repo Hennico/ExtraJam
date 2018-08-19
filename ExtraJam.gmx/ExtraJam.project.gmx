@@ -44,6 +44,7 @@
       <script>scripts\arma_escopeta.gml</script>
       <script>scripts\arma_pistolon.gml</script>
     </scripts>
+    <script>scripts\scr_shake.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\font_menu</font>
@@ -71,6 +72,7 @@
     </objects>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_inicializador</room>
     <room>rooms\room1</room>
     <room>rooms\room0</room>
   </rooms>

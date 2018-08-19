@@ -1,6 +1,9 @@
 /// arma_escopeta()
 if (enfriamiento < 0) {
     enfriamiento = room_speed*.75;
+    audio_play_sound(sound_superreload, 1, false);
+    audio_play_sound(sound_supershotgun, 2, false);
+    
     var vertOffset = -32;
     var balas = 25;
     var dispercion = 37;
