@@ -32,7 +32,7 @@ potencia = 0;
         </arguments>
       </action>
     </event>
-    <event eventtype="3" enumb="0">
+    <event eventtype="3" enumb="2">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -49,14 +49,14 @@ potencia = 0;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (potencia) {
-    view_angle = random_range(-potencia/4, potencia/4);
-    view_xview = random_range(-potencia, potencia);
-    view_yview = random_range(-potencia, potencia);
+            <string>view_angle = 0;
+view_xview = 0;
+view_yview = 0;
+if (potencia) {
+    view_angle += random_range(-potencia/4, potencia/4);
+    view_xview += random_range(-potencia, potencia);
+    view_yview += random_range(-potencia, potencia);
 } else {
-    view_angle = 0;
-    view_xview = 0;
-    view_yview = 0;
     
     instance_destroy();
 }
