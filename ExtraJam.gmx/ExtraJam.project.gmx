@@ -9,6 +9,14 @@
       <sound>sound\sound_intro</sound>
       <sound>sound\sound_bucle</sound>
     </sounds>
+    <sounds name="FX">
+      <sound>sound\sound_handshotgun</sound>
+      <sound>sound\sound_supershotgun</sound>
+      <sound>sound\sound_handreload</sound>
+      <sound>sound\sound_superreload</sound>
+      <sound>sound\sound_reverseshotgun</sound>
+      <sound>sound\sound_hit</sound>
+    </sounds>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\sprite0</sprite>
