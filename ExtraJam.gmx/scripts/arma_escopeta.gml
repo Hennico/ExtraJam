@@ -3,6 +3,7 @@ if (enfriamiento < 0) {
     enfriamiento = room_speed*.75;
     audio_play_sound(sound_superreload, 1, false);
     audio_play_sound(sound_supershotgun, 2, false);
+    scr_sacudir_camara(15);
     
     var vertOffset = -32;
     var balas = 25;
