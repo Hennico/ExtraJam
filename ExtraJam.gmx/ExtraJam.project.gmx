@@ -30,6 +30,7 @@
     <sprite>sprites\enemigoCorriendo</sprite>
     <sprite>sprites\drone</sprite>
     <sprite>sprites\sprite10</sprite>
+    <sprite>sprites\Area</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -65,6 +66,7 @@
       <object>objects\obj_enemigo_aire</object>
       <object>objects\obj_enemigo_basico</object>
       <object>objects\obj_dispensar_enemigos</object>
+      <object>objects\obj_enemigo_empujador</object>
     </objects>
     <objects name="proyectiles">
       <object>objects\obj_proyectil</object>
