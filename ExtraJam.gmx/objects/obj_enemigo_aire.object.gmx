@@ -91,7 +91,21 @@ alarm[0] = room_speed;
           <argument>
             <kind>1</kind>
             <string>/// Moverse
-scr_moverse(vel_x, vel_y);
+if (!place_meeting(x,y-1, obj_personaje))
+    scr_moverse(vel_x, vel_y);
+else {
+    var vert = keyboard_check(ord('S')) - keyboard_check(ord('W'))
+    
+    if (vert &gt; 0)
+        scr_moverse(0,vert*velocidad);
+        
+    with (obj_personaje)
+        scr_moverse(0,vert*velocidad);
+        
+    if (vert &lt; 0)
+        scr_moverse(0,vert*velocidad);
+    
+}
 </string>
           </argument>
         </arguments>
