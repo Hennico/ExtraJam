@@ -72,6 +72,7 @@
     <instance objName="obj_obstaculo" x="1088" y="640" name="inst_210C2823" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_obstaculo" x="1088" y="672" name="inst_DB4723D9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_obstaculo" x="1120" y="224" name="inst_C893E0BC" locked="0" code="" scaleX="1" scaleY="16" colour="4294967295" rotation="0"/>
+    <instance objName="obj_menu" x="160" y="224" name="inst_EB763A3B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
