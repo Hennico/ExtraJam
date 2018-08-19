@@ -49,6 +49,7 @@ enfriamiento = 0;
 image_speed = 0.25;
 image_xscale = 2;
 image_yscale = 2;
+
 </string>
           </argument>
         </arguments>
@@ -141,7 +142,7 @@ if (enfriamiento &gt;= 0)
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>/// peder por mapa
+            <string>/// perder por mapa
 if (bbox_top &gt; room_height) {
     with (obj_enemigo) {
         instance_destroy();
@@ -155,6 +156,54 @@ if (bbox_top &gt; room_height) {
     x = xstart;
     y = ystart;
 }
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///animacion
+
+var en_piso = place_meeting(x, y+1, obj_obstaculo);
+var hor = keyboard_check(ord('D')) - keyboard_check(ord('A'));
+var alado_pared = place_meeting(x-2*hor, y, obj_obstaculo);
+
+
+if !en_piso{
+    image_index = 0;
+    sprite_index = Hero_callendo_arma_Grande;
+    if (alado_pared){
+        sprite_index = Hero_Deslizando_arma_Grande;
+        image_xscale = 2*hor;
+    }
+    
+}else{
+    sprite_index = Hero_Coriendo_Escopta_Grande;
+    if (hor != 0){
+        image_xscale = 2*hor;
+        image_speed = 0.25;
+    }else{
+        sprite_index = Hero_Parado_Escopta_Grande;
+        image_index = 0;
+        image_speed = 0;
+    }
+}
+
+
 </string>
           </argument>
         </arguments>
