@@ -61,10 +61,13 @@ image_yscale = 2;
           <argument>
             <kind>1</kind>
             <string>/// Moverse
-if (obj_personaje.x &gt; x)
-    var hor = 1;
-else
-    var hor = -1;
+var hor = 0;
+if(abs(obj_personaje.x-x)&gt;velocidad){
+    if (obj_personaje.x &gt; x)
+        hor = 1;
+    else
+        hor = -1;
+}
 
 velocidadVer = velocidadVer - gravedad;
 if (scr_posicion_bloqueada(x, y+1)) {
