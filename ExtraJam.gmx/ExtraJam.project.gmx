@@ -35,6 +35,7 @@
     <sprite>sprites\Hero_callendo_arma_Grande</sprite>
     <sprite>sprites\Hero_Parado_Escopta_Grande</sprite>
     <sprite>sprites\Hero_Deslizando_arma_Grande</sprite>
+    <sprite>sprites\mascara_colision_personaje</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>

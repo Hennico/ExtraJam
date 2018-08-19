@@ -51,21 +51,98 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="obj_obstaculo" x="96" y="448" name="inst_973A5575" locked="0" code="" scaleX="2" scaleY="10" colour="4294967295" rotation="0"/>
-    <instance objName="obj_personaje" x="32" y="704" name="inst_B63C27B5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_obstaculo" x="96" y="448" name="inst_3E47A404" locked="0" code="" scaleX="2" scaleY="10" colour="4294967295" rotation="0"/>
+    <instance objName="obj_obstaculo" x="128" y="448" name="inst_973A5575" locked="0" code="" scaleX="2" scaleY="10" colour="4294967295" rotation="0"/>
+    <instance objName="obj_personaje" x="64" y="704" name="inst_B63C27B5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_obstaculo" x="160" y="448" name="inst_E07F31AB" locked="0" code="" scaleX="6" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_obstaculo" x="96" y="416" name="inst_BEFEECFC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_obstaculo" x="384" y="352" name="inst_CEA28486" locked="0" code="" scaleX="8" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_obstaculo" x="672" y="288" name="inst_F010E848" locked="0" code="" scaleX="8" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_dispensar_enemigos" x="192" y="672" name="inst_60BC32B1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_obstaculo" x="384" y="320" name="inst_CEA28486" locked="0" code="" scaleX="8" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_obstaculo" x="640" y="224" name="inst_F010E848" locked="0" code="" scaleX="8" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_dispensar_enemigos" x="224" y="672" name="inst_60BC32B1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_dispensar_enemigos" x="896" y="96" name="inst_DA4A3E5E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_obstaculo" x="0" y="736" name="inst_DDF6FC61" locked="0" code="" scaleX="3" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_obstaculo" x="160" y="736" name="inst_9A007CFB" locked="0" code="" scaleX="8" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_obstaculo" x="1312" y="0" name="inst_039847A9" locked="0" code="" scaleX="1" scaleY="18" colour="4294967295" rotation="0"/>
     <instance objName="obj_obstaculo" x="1088" y="352" name="inst_A810AC2D" locked="0" code="" scaleX="1" scaleY="16" colour="4294967295" rotation="0"/>
     <instance objName="obj_obstaculo" x="1472" y="864" name="inst_91B8EE56" locked="0" code="" scaleX="12" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_dispensar_enemigos" x="2208" y="160" name="inst_D63E97D5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_dispensar_enemigos" x="2144" y="128" name="inst_D63E97D5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_obstaculo" x="1088" y="864" name="inst_EA3409E6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_obstaculo" x="2080" y="320" name="inst_372A64E5" locked="0" code="" scaleX="1" scaleY="18" colour="4294967295" rotation="0"/>
+    <instance objName="obj_dispensar_enemigos" x="2144" y="128" name="inst_1E90BA9E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_obstaculo" x="2112" y="320" name="inst_28520317" locked="0" code="" scaleX="18.5483875274658" scaleY="3" colour="4294967295" rotation="0"/>
+    <instance objName="obj_obstaculo" x="2784" y="864" name="inst_F2D51DA9" locked="0" code="" scaleX="6" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_obstaculo" x="3104" y="672" name="inst_E5357ABC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_obstaculo" x="3168" y="608" name="inst_406A2304" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_obstaculo" x="3328" y="480" name="inst_1C0EE98F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_dispensar_enemigos" x="2272" y="544" name="inst_0DDBDB78" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_dispensar_enemigos" x="3776" y="96" name="inst_417D6C42" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_obstaculo" x="3776" y="192" name="inst_F028C3C6" locked="0" code="" scaleX="-6.22580623626709" scaleY="1.03225803375244" colour="4294967295" rotation="0"/>
+    <instance objName="obj_obstaculo" x="3424" y="320" name="inst_9FE088E4" locked="0" code="" scaleX="9" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_obstaculo" x="0" y="384" name="inst_48B13608" locked="0" code="" scaleX="1" scaleY="11" colour="4294967295" rotation="0"/>
+    <instance objName="obj_obstaculo" x="96" y="736" name="inst_BEC568E4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_obstaculo" x="1856" y="864" name="inst_40344566" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_obstaculo" x="1888" y="864" name="inst_0667986C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_obstaculo" x="1920" y="864" name="inst_8B91670E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_obstaculo" x="1952" y="864" name="inst_FD06F697" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_obstaculo" x="1952" y="832" name="inst_E5B07650" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_obstaculo" x="1952" y="768" name="inst_DF87FF0F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_obstaculo" x="1952" y="736" name="inst_7861FACD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_obstaculo" x="1952" y="800" name="inst_C80FE6FC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_obstaculo" x="1952" y="704" name="inst_601D8D77" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_obstaculo" x="1952" y="672" name="inst_6E0944DC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_obstaculo" x="1952" y="640" name="inst_5DE6E54F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_obstaculo" x="1952" y="608" name="inst_6913ED50" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_obstaculo" x="1952" y="576" name="inst_D7CD9271" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_obstaculo" x="1952" y="544" name="inst_76D918B2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_obstaculo" x="1952" y="512" name="inst_C7EB42EA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_obstaculo" x="1952" y="480" name="inst_FE575C56" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_obstaculo" x="1952" y="448" name="inst_712B8071" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_obstaculo" x="1952" y="416" name="inst_CD1C6C06" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_obstaculo" x="1952" y="384" name="inst_E4B2A192" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_obstaculo" x="1952" y="352" name="inst_2D43381E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_obstaculo" x="1952" y="320" name="inst_EB1CB588" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_obstaculo" x="1952" y="256" name="inst_E94974B6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_obstaculo" x="1952" y="288" name="inst_6C5B0B12" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_obstaculo" x="1952" y="224" name="inst_ADF3EC82" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_obstaculo" x="1952" y="192" name="inst_9BEA51CC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_obstaculo" x="1952" y="160" name="inst_F034F917" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_obstaculo" x="1952" y="128" name="inst_510761E4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_obstaculo" x="1600" y="832" name="inst_7A711578" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_obstaculo" x="1632" y="800" name="inst_A6DA2102" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_obstaculo" x="1664" y="768" name="inst_23764BF3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_obstaculo" x="1696" y="736" name="inst_48FB396D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_obstaculo" x="1728" y="704" name="inst_45693240" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_obstaculo" x="1760" y="672" name="inst_08A929BE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_obstaculo" x="1792" y="640" name="inst_E5044D33" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_obstaculo" x="1664" y="576" name="inst_8DFA74CC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_obstaculo" x="1632" y="544" name="inst_A4CCFEE4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_obstaculo" x="1600" y="512" name="inst_B2CBCFB7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_obstaculo" x="1568" y="480" name="inst_116ECF53" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_obstaculo" x="1536" y="448" name="inst_41457FED" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_obstaculo" x="1664" y="352" name="inst_B744DCA2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_obstaculo" x="1696" y="320" name="inst_CA43D1DA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_obstaculo" x="1760" y="256" name="inst_8561693E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_obstaculo" x="1792" y="224" name="inst_37E81492" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_obstaculo" x="1824" y="192" name="inst_01053C21" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_obstaculo" x="1728" y="288" name="inst_491392F3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_obstaculo" x="3072" y="704" name="inst_6520B4B1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_obstaculo" x="3136" y="640" name="inst_EC56EB00" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_obstaculo" x="3200" y="576" name="inst_09E4BB5B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_obstaculo" x="3232" y="544" name="inst_28A31999" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_obstaculo" x="3264" y="512" name="inst_3F984C8C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_obstaculo" x="3296" y="480" name="inst_0F5D6230" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_obstaculo" x="3040" y="736" name="inst_1473C180" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_obstaculo" x="3008" y="768" name="inst_CEC9BA1F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_obstaculo" x="2976" y="800" name="inst_83F31492" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_obstaculo" x="2944" y="832" name="inst_6E9C2CE8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_obstaculo" x="2944" y="800" name="inst_5365D774" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_obstaculo" x="3008" y="736" name="inst_0E22D19B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_obstaculo" x="3072" y="672" name="inst_F189C71D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_obstaculo" x="3136" y="608" name="inst_7B668EA0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_obstaculo" x="3200" y="544" name="inst_65D3A2D2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_obstaculo" x="3232" y="512" name="inst_861C60E8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_obstaculo" x="3264" y="480" name="inst_A59E42A4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_obstaculo" x="3360" y="448" name="inst_4185A9F0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_obstaculo" x="3328" y="448" name="inst_6AB037AB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_obstaculo" x="3360" y="416" name="inst_6F0741E8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
