@@ -22,7 +22,7 @@
     <sprite>sprites\sprite0</sprite>
     <sprite>sprites\sprite1</sprite>
     <sprite>sprites\sprite3</sprite>
-    <sprite>sprites\sprite4</sprite>
+    <sprite>sprites\Spam</sprite>
     <sprite>sprites\sprite2</sprite>
     <sprite>sprites\sprite5</sprite>
     <sprite>sprites\sprite6</sprite>
@@ -30,6 +30,7 @@
     <sprite>sprites\enemigoCorriendo</sprite>
     <sprite>sprites\drone</sprite>
     <sprite>sprites\sprite10</sprite>
+    <sprite>sprites\Hero_Coriendo_Escopta_Grande</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
