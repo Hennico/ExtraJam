@@ -30,7 +30,7 @@
     <sprite>sprites\enemigoCorriendo</sprite>
     <sprite>sprites\drone</sprite>
     <sprite>sprites\sprite10</sprite>
-    <sprite>sprites\Area</sprite>
+    <sprite>sprites\spr_area_empuje_enemigo</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
