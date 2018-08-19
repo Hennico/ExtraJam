@@ -3,10 +3,10 @@
   <spriteName>Hero_Coriendo_Escopta_Grande</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>0</depth>
+  <depth>-1</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
-  <maskName>&lt;undefined&gt;</maskName>
+  <maskName>mascara_colision_personaje</maskName>
   <events>
     <event eventtype="0" enumb="0">
       <action>
