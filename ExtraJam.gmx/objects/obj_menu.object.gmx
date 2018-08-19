@@ -87,15 +87,17 @@ mostrarAyudavar = false;
           <argument>
             <kind>1</kind>
             <string>if (mostrar){
+    var relX = view_xview + view_wview/2;
+    var relY = view_yview + view_hview/largo_menu;
     if (mostrarAyudavar){
         draw_set_font(font_menu);
         draw_set_halign(fa_center);
-        draw_text_colour(x, y + (0 * space), "este es nuestro intento de explicar comandos", c_black, c_black, c_black, c_black, 1);
-        draw_text_colour(x, y + (1 * space), "P pausa.. ¿Como llegaste aqui?", c_black, c_black, c_black, c_black, 1);
-        draw_text_colour(x, y + (3 * space), "left Click dispar, Rigth Click cambiar de armas", c_black, c_black, c_black, c_black, 1);
-        draw_text_colour(x, y + (4 * space), "puedes saltar sobre la paredes con A o D y space", c_black, c_black, c_black, c_black, 1);
-        draw_text_colour(x, y + (1 * space), "P pausa.. ¿Como llegaste aqui?", c_black, c_black, c_black, c_black, 1);  
-        draw_text_colour(x, y + (2 * space), "A y D para moverse. Space para saltar", c_black, c_black, c_black, c_black, 1);  
+        draw_text_colour(relX, relY + (0 * space), "este es nuestro intento de explicar comandos", c_black, c_black, c_black, c_black, 1);
+        draw_text_colour(relX, relY + (1 * space), "P pausa.. ¿Como llegaste aqui?", c_black, c_black, c_black, c_black, 1);
+        draw_text_colour(relX, relY + (3 * space), "left Click dispar, Rigth Click cambiar de armas", c_black, c_black, c_black, c_black, 1);
+        draw_text_colour(relX, relY + (4 * space), "puedes saltar sobre la paredes con A o D y space", c_black, c_black, c_black, c_black, 1);
+        draw_text_colour(relX, relY + (1 * space), "P pausa.. ¿Como llegaste aqui?", c_black, c_black, c_black, c_black, 1);  
+        draw_text_colour(relX, relY + (2 * space), "A y D para moverse. Space para saltar", c_black, c_black, c_black, c_black, 1);  
     }else{
         draw_set_font(font_menu);
         draw_set_halign(fa_center);
@@ -104,9 +106,9 @@ mostrarAyudavar = false;
         for (i = 0; i &lt; largo_menu; i += 1)
            {
            if (i == mpos)
-                draw_text_colour(x, y + (i * space), menu[i], c_red, c_red, c_red, c_red, 1);
+                draw_text_colour(relX, relY + (i * space), menu[i], c_red, c_red, c_red, c_red, 1);
            else
-               draw_text_colour(x, y + (i * space), menu[i], c_black, c_black, c_black, c_black, 1);
+               draw_text_colour(relX, relY + (i * space), menu[i], c_black, c_black, c_black, c_black, 1);
            }
     }
 }
